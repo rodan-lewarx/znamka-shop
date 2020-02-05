@@ -1,0 +1,24 @@
+**/node_modules
+**/yarn-error.log
+**/coverage
+**/lerna-debug.log
+.yarn
+
+# editors
+**/.vscode
+**/.idea
+
+# MacOS
+**/.DS_Store
+
+# Builds
+**/build
+
+# Reason ML
+**/.merlin
+**/*.bs.js
+**/*.gen.tsx
+**/lib/bs
+**/lib/ocaml
+**/.bsb.lock
+**/.graphql_ppx_cache
