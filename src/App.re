@@ -1,8 +1,12 @@
 let inMemoryCache = ApolloInMemoryCache.createInMemoryCache();
-/* Create an HTTP Link */
+let headers = Js.Dict.empty();
+
+Js.Dict.set(headers, "X-Hasura-Role", Js.Json.string("user"));
+
 let httpLink =
   ApolloLinks.createHttpLink(
     ~uri="https://znamka-shop.herokuapp.com/v1/graphql",
+    ~headers=Js.Json.object_(headers),
     (),
   );
 
