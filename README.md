@@ -8,7 +8,6 @@ to run the repo run:
 ## The goal is to create the shop page
 - You need to fetch the data using the tariffs query
 - once the user selects the tariffs and inputs license plate and email and validity from send insert_orders mutation
-- you can play with the graphql here https://znamka-shop.herokuapp.com/console/
 
 ## Documentation
 - https://reasonml.org/
